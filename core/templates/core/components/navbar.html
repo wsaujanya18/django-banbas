@@ -1,0 +1,33 @@
+{% load static %}
+
+<!-- navbar.html -->
+{% comment %} <header class="header">
+    <video autoplay muted loop class="background-video">
+      <source src="your-video.mp4" type="video/mp4">
+    </video>
+    <div class="overlay">
+      <div class="nav-container">
+        <img src="logo.png" alt="Siddhartha Vilasa Banbas" class="logo">
+        <nav class="nav-links">
+          <a href="#adventures">Adventures</a>
+          <a href="#accommodations">Accommodations</a>
+          <a href="#dining">Dining</a>
+          <a href="#location">Location</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#about">About Us</a>
+        </nav>
+        <a href="#reserve" class="reserve-button">Reserve</a>
+      </div>
+    </div>
+  </header> {% endcomment %}
+
+  <header class="header">
+    <video autoplay muted loop class="background-video">
+      <source src="{% static 'core/videos/banbas_background.mp4' %}" type="video/mp4">
+    </video>
+    <div class="overlay">
+        <div class="logo-container">
+            <img src="{% static 'core/images/banbas_logo_transparent.png' %}" alt="Logo" class="logo">
+          </div>
+    </div>
+  </header>
